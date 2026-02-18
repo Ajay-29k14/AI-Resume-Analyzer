@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  padding: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.score-box {
+  background: white;
+  padding: 20px;
+  width: 45%;
+  text-align: center;
+}
+
+.big-score {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.matched {
+  color: green;
+}
+
+.missing {
+  color: red;
+}
+
+.verdict {
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.verdict.green { background: #d4edda; }
+.verdict.orange { background: #fff3cd; }
+.verdict.red { background: #f8d7da; }
